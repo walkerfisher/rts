@@ -8,7 +8,7 @@ const EventComponent: React.FC = () => {
     console.log(event);
   };
 
-  return (
+  return ( 
     <div>
       <input onChange={onChange} />
       <div draggable onDragStart={onDragStart}>Drag Me!</div>
